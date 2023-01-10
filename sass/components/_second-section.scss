@@ -1,5 +1,6 @@
 .second-section {
     display: flex;
+    flex-direction: column;
     gap: 30px;
     &__icon {
         border-radius: 4px;
