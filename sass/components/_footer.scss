@@ -3,10 +3,13 @@
     padding: 60px 0;
     &__wrapper {
         display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     &__info {
         display: flex;
         flex-direction: column;
+        margin: auto;
     }
     &__address {
         font-style: normal;
@@ -35,6 +38,8 @@
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
     &__contacts-link {
+        display: flex;
+        justify-content: center;
         color: $light-gray;
         font-weight: 500;
         cursor: pointer;
@@ -57,8 +62,11 @@
         color: $primary-color;
     }
     &__social {
-        margin-left: 70px;
-        margin-top: 12px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+        padding-top: 60px;
     }
     &__social-container {
         display: flex;
@@ -72,6 +80,7 @@
         text-transform: uppercase;
         margin-bottom: 20px;
         color: $white;
+        text-align: center;
     }
     &__social-icon {
         display: flex;
@@ -90,12 +99,14 @@
         background: $primary-color;
     }
     &__form {
-        margin-left: 78px;
-        position: relative;
-        top: 11px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     &__label {
         display: flex;
+        justify-content: center;
+        padding-top: 60px;
         padding-bottom: 20px;
         color: $white;
         font-weight: 700;
@@ -105,7 +116,9 @@
         text-transform: uppercase;
     }
     &__newsletter-btn {
+        
         display: flex;
+        justify-content: center;
         padding-left: 42px;
         padding-right: 8px;
         align-items: center;
@@ -115,7 +128,7 @@
         width: 200px;
         height: 50px;
         border: 0px;
-        margin-left: 12px;
+        margin: auto;
         background: $primary-color;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
@@ -142,5 +155,8 @@
     }
     &__newsletter {
         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
     }
 }

@@ -1,8 +1,11 @@
 .fourth-section {
     background-color: $team-bg;
     margin-bottom: 0;
+
     &__list {
         display: flex;
+        flex-direction: column;
+
         flex-wrap: nowrap;
         gap: 30px;
     }
@@ -17,6 +20,7 @@
         padding: 30px 99px 5px 99px;
         font-weight: 500;
         font-size: 16px;
+        text-align: center;
     }
     &__job-name {
         padding-bottom: 16px;

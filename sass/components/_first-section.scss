@@ -1,7 +1,5 @@
 .first-section {
     background-color: $dark-bg;
-    padding-top: 200px;
-    padding-bottom: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,9 +9,10 @@
             rgba(47, 48, 58, 0.4)
         ),
         url(../images/back-ground-1.jpg);
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
+
     fill-opacity: 0.6;
     margin: 0 auto;
     color: $white;
@@ -21,13 +20,15 @@
     &__title {
         margin: 0 auto;
         font-weight: 900;
-        font-size: 44px;
+        font-size: 26px;
         line-height: 1.4em;
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
         line-height: 1.3636;
         max-width: 700px;
+        margin-top: 30px;
+        padding: 0 30px;
     }
     &__btn {
         font-family: 'Roboto', sans-serif;
@@ -43,5 +44,6 @@
         font-weight: 700;
         letter-spacing: 0.06em;
         box-shadow: 0px 4px 4px 0px #00000026;
+        margin-bottom: 30px;
     }
 }

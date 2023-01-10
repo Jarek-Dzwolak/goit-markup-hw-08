@@ -4,7 +4,7 @@
     gap: 30px;
     &__icon {
         border-radius: 4px;
-        width: 270px;
+        width: 450px;
         height: 120px;
         display: flex;
         justify-content: center;
@@ -20,6 +20,7 @@
         text-transform: uppercase;
         color: $dark-gray;
         margin-bottom: 10px;
+        text-align: center;
     }
     &__text {
         line-height: 1.7;
