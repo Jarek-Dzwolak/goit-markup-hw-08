@@ -1,0 +1,27 @@
+.second-section {
+    display: flex;
+    gap: 30px;
+    &__icon {
+        border-radius: 4px;
+        width: 270px;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $team-bg;
+        margin-bottom: 30px;
+    }
+    &__title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: $dark-gray;
+        margin-bottom: 10px;
+    }
+    &__text {
+        line-height: 1.7;
+        color: $light-gray;
+    }
+}

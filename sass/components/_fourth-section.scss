@@ -1,0 +1,52 @@
+.fourth-section {
+    background-color: $team-bg;
+    margin-bottom: 0;
+    &__list {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 30px;
+    }
+    &__card {
+        justify-content: center;
+        background-color: $white;
+        border-radius: 4px;
+        box-shadow: 0px 2px 1px 0px #00000033, 0px 1px 1px 0px #00000024,
+            0px 1px 3px 0px #0000001f;
+    }
+    &__fullname {
+        padding: 30px 99px 5px 99px;
+        font-weight: 500;
+        font-size: 16px;
+    }
+    &__job-name {
+        padding-bottom: 16px;
+        font-size: 16px;
+        color: $light-gray;
+        display: flex;
+        justify-content: center;
+    }
+    &__svg-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding-bottom: 16px;
+        fill: currentColor;
+    }
+    &__social-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 44px;
+        height: 44px;
+        fill: #afb1b8;
+        border-radius: 50%;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    &__social-icon:hover,
+    &__social-icon:focus {
+        fill: white;
+        background-color: $primary-color;
+    }
+}

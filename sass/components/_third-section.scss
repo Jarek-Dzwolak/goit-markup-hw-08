@@ -1,0 +1,25 @@
+.third-section {
+    margin-top: -94px;
+    &__pictures-list {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    &__pictures-item {
+        position: relative;
+    }
+    &__pictures-subtitles {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(47, 48, 58, 0.8);
+        color: $white;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 700;
+        padding: 27px 0;
+        width: 370px;
+        position: absolute;
+        bottom: 0;
+    }
+}

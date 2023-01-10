@@ -1,0 +1,25 @@
+.our-customers {
+    display: flex;
+    fill: #afb1b8;
+    justify-content: center;
+    gap: 30px;
+    fill: $light-gray;
+    &__logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        border: 1px solid #afb1b8;
+        border-radius: 5px;
+        width: 170px;
+        height: 92px;
+        fill: $light-gray;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    &__logo:hover,
+    &__logo:focus {
+        fill: $primary-color;
+        border-color: $primary-color;
+    }
+}
