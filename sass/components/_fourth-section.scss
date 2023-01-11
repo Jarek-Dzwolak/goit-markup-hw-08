@@ -1,14 +1,23 @@
 .fourth-section {
     background-color: $team-bg;
-    margin-bottom: 0;
+    margin: auto 0;
 
     &__list {
         display: flex;
+        justify-content: center;
         flex-direction: column;
         justify-content: center;
         max-width: 320px;
         flex-wrap: nowrap;
         gap: 30px;
+        margin: 0 auto;
+        @include tablet {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            max-width: 700px;
+            margin: 0 auto;
+        }
     }
     &__card {
         justify-content: center;
