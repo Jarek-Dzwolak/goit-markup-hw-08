@@ -18,6 +18,10 @@
         display: none;
         justify-content: space-between;
         gap: 46px;
+        @include tablet {
+            display: flex;
+            margin:  0 83px;
+        }
     }
 
     &__nav-link {
@@ -67,6 +71,13 @@
         display: none;
         align-items: center;
         gap: 50px;
+        @include tablet {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            
+            align-items: flex-start;
+        }
     }
 
     &__contacts-item {
