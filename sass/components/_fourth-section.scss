@@ -1,7 +1,6 @@
 .fourth-section {
     background-color: $team-bg;
     margin-bottom: 0;
-    
 
     &__list {
         display: flex;
@@ -58,5 +57,7 @@
     }
     &__img {
         max-width: 320px;
+        height: auto;
+        width: 100%;
     }
 }
