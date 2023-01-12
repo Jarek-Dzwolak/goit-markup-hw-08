@@ -5,6 +5,11 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        @include tablet {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+        }
     }
     &__info {
         display: flex;
@@ -29,9 +34,12 @@
         white-space: nowrap;
     }
     &__mail {
+        display: flex;
+        justify-content: center;
         font-size: 14px;
         color: $light-gray;
         text-decoration: underline;
+
         font-weight: 500;
         line-height: 1.7;
         transition-duration: 250ms;
@@ -67,6 +75,9 @@
         flex-direction: column;
         margin: auto;
         padding-top: 60px;
+        @include tablet {
+            margin: 0;
+        }
     }
     &__social-container {
         display: flex;
@@ -116,7 +127,6 @@
         text-transform: uppercase;
     }
     &__newsletter-btn {
-        
         display: flex;
         justify-content: center;
         padding-left: 42px;
