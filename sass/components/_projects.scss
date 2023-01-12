@@ -6,6 +6,10 @@
         flex-wrap: wrap;
         margin-bottom: 50px;
         gap: 8px;
+        @include tablet {
+            display: flex;
+            justify-content: center;
+        }
     }
     &__btn {
         font-family: 'Roboto', sans-serif;
