@@ -43,9 +43,7 @@
     }
     &__pictures {
         position: relative;
-        max-width: 450px;
-        height: auto;
-        width: 100%;
+
         overflow: hidden;
     }
     &__item:hover &__description-hidden {
@@ -98,6 +96,10 @@
         width: 100%;
         @include tablet {
             max-width: 354px;
+            height: 100%;
+        }
+        @include desktop {
+            max-width: 370px;
             height: 100%;
         }
     }

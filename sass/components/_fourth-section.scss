@@ -15,17 +15,27 @@
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
-            max-width: 700px;
+            max-width: 768px;
             margin: 0 auto;
+        }
+        @include desktop {
+            max-width: 1200px;
         }
     }
     &__card {
-        justify-content: center;
+        max-width: 450px;
+        height: auto;
+        width: 100%;
         background-color: $white;
         border-radius: 4px;
         box-shadow: 0px 2px 1px 0px #00000033, 0px 1px 1px 0px #00000024,
             0px 1px 3px 0px #0000001f;
-        max-width: 320px;
+        @include tablet {
+            max-width: 354px;
+        }
+        @include desktop {
+            max-width: 270px;
+        }
     }
     &__fullname {
         padding: 30px 99px 5px 99px;
@@ -65,7 +75,6 @@
         background-color: $primary-color;
     }
     &__img {
-        max-width: 320px;
         height: auto;
         width: 100%;
     }

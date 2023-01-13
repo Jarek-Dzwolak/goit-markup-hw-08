@@ -12,11 +12,16 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
+    padding-top: 95px;
+    padding-bottom: 95px;
     fill-opacity: 0.6;
     margin: 0 auto;
     color: $white;
     text-align: center;
+
+    @include desktop {
+        height: 600px;
+    }
     &__title {
         margin: 0 auto;
         font-weight: 900;
@@ -30,8 +35,8 @@
         margin-top: 30px;
         padding: 0 30px;
         @include tablet {
-           width: 365px;
-           padding: 0;
+            width: 365px;
+            padding: 0;
         }
     }
     &__btn {

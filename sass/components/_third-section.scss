@@ -1,6 +1,10 @@
 .third-section {
     display: none;
-    margin-top: -94px;
+
+    @include desktop {
+        display: flex;
+      
+    }
     &__pictures-list {
         display: flex;
         justify-content: center;

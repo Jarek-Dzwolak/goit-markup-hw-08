@@ -1,6 +1,9 @@
 .header {
     border-bottom: 1px solid #ececec;
     padding: 16px 0;
+    @include desktop {
+        padding: 25px 0;
+    }
 
     &__wrapper {
         display: flex;
@@ -20,7 +23,10 @@
         gap: 46px;
         @include tablet {
             display: flex;
-            margin:  0 83px;
+            margin: 0 83px;
+        }
+        @include desktop {
+            margin-left: 93px;
         }
     }
 
@@ -75,8 +81,13 @@
             display: flex;
             flex-direction: column;
             gap: 10px;
-            
             align-items: flex-start;
+        }
+        @include desktop {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-right: 30px;
         }
     }
 
