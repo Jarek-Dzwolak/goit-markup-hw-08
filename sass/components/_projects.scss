@@ -76,6 +76,9 @@
         border-left: 1px solid #eeeeee;
         z-index: 3;
         width: 100%;
+        @include tablet {
+            flex-grow: 1;
+        }
     }
     &__title {
         padding: 20px 24px 4px 24px;
@@ -96,7 +99,6 @@
         width: 100%;
         @include tablet {
             max-width: 354px;
-            height: 100%;
         }
         @include desktop {
             max-width: 370px;
