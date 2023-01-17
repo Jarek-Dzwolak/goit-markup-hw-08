@@ -228,9 +228,18 @@
                     <ul class="fourth-section__list">
                         <li class="fourth-section__card">
                             <img
-                                src="images/johndoe.1.jpg"
-                                alt="Zdjęcie przedstawia pracownika John Doe"
                                 class="fourth-section__img"
+                                alt="Product Designer"
+                                src="images/desktop/johndoe1.jpg"
+                                srcset="
+                                    images/desktop/johndoe1.jpg    270w,
+                                    images/desktop/johndoe1@2x.jpg 540w,
+                                    images/tablet/johndoe1.jpg     354w,
+                                    images/tablet/johndoe1@2x.jpg  708w,
+                                    images/mobile/johndoe1.jpg     450w,
+                                    images/mobile/johndoe1@2x.jpg  900w
+                                "
+                                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px , 100vw"
                             />
 
                             <h3 class="fourth-section__fullname">John Doe</h3>
@@ -270,9 +279,18 @@
                         </li>
                         <li class="fourth-section__card">
                             <img
-                                src="images/johndoe.2.jpg"
-                                alt="Zdjęcie przedstawia pracownika John Doe"
                                 class="fourth-section__img"
+                                alt="Product Designer"
+                                src="images/desktop/johndoe2.jpg "
+                                srcset="
+                                    images/desktop/johndoe2.jpg    270w,
+                                    images/desktop/johndoe2@2x.jpg 540w,
+                                    images/tablet/johndoe2.jpg     354w,
+                                    images/tablet/johndoe2@2x.jpg  708w,
+                                    images/mobile/johndoe2.jpg     450w,
+                                    images/mobile/johndoe2@2x.jpg  900w
+                                "
+                                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px , 100vw"
                             />
 
                             <h3 class="fourth-section__fullname">John Doe</h3>
@@ -312,9 +330,18 @@
                         </li>
                         <li class="fourth-section__card">
                             <img
-                                src="images/johndoe.3.jpg"
-                                alt="Zdjęcie przedstawia pracownika John Doe"
                                 class="fourth-section__img"
+                                alt="Product Designer"
+                                src="images/desktop/johndoe3.jpg"
+                                srcset="
+                                    images/desktop/johndoe3.jpg    270w,
+                                    images/desktop/johndoe3@2x.jpg 540w,
+                                    images/tablet/johndoe3.jpg     354w,
+                                    images/tablet/johndoe3@2x.jpg  708w,
+                                    images/mobile/johndoe3.jpg     450w,
+                                    images/mobile/johndoe3@2x.jpg  900w
+                                "
+                                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px , 100vw"
                             />
                             <h3 class="fourth-section__fullname">John Doe</h3>
                             <p class="fourth-section__job-name">Marketing</p>
@@ -352,8 +379,17 @@
                         <li class="fourth-section__card">
                             <img
                                 class="fourth-section__img"
-                                src="images/johndoe.4.jpg"
-                                alt="Zdjęcie przedstawia pracownika John Doe"
+                                alt="Product Designer"
+                                src="images/desktop/johndoe4.jpg"
+                                srcset="
+                                    images/desktop/johndoe4.jpg    270w,
+                                    images/desktop/johndoe4@2x.jpg 540w,
+                                    images/tablet/johndoe4.jpg     354w,
+                                    images/tablet/johndoe4@2x.jpg  708w,
+                                    images/mobile/johndoe4.jpg     450w,
+                                    images/mobile/johndoe4@2x.jpg  900w
+                                "
+                                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px , 100vw"
                             />
                             <h3 class="fourth-section__fullname">John Doe</h3>
                             <p class="fourth-section__job-name">UI Designer</p>
@@ -454,7 +490,7 @@
         <footer class="footer">
             <div class="container footer__wrapper">
                 <div class="footer__info">
-                    <a href="#" class="logo" href="index.html"
+                    <a href="#" class="logo footer__logo" href="index.html"
                         >Web<span class="logo__studio--bright">Studio</span></a
                     >
                     <address class="footer__address">
@@ -633,7 +669,11 @@
 
             <ul class="modal-menu__nav-list">
                 <li>
-                    <a class="modal-menu__link" href="index.html">Agencja</a>
+                    <a
+                        class="modal-menu__link modal-menu__link--active"
+                        href="index.html"
+                        >Agencja</a
+                    >
                 </li>
                 <li>
                     <a class="modal-menu__link" href="portfolio.html"
@@ -662,18 +702,18 @@
                 </ul>
 
                 <ul class="modal-menu__social-list">
-                    <li>
+                    <li class="modal-menu__social-border">
                         <a class="modal-menu__social-item" href="#"
                             >Instagram</a
                         >
                     </li>
-                    <li>
+                    <li class="modal-menu__social-border">
                         <a class="modal-menu__social-item" href="#">Twitter</a>
                     </li>
-                    <li>
+                    <li class="modal-menu__social-border">
                         <a class="modal-menu__social-item" href="#">Facebook</a>
                     </li>
-                    <li>
+                    <li class="modal-menu__social-border">
                         <a class="modal-menu__social-item" href="#">LinkedIn</a>
                     </li>
                 </ul>

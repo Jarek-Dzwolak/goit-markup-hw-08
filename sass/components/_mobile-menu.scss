@@ -53,6 +53,9 @@
         letter-spacing: 0.02em;
         text-align: left;
         text-decoration: none;
+        &--active {
+            color: $primary-color;
+        }
     }
 
     &__link:focus {
@@ -96,11 +99,20 @@
     }
     &__social-list {
         display: flex;
-        gap: 20px;
+        gap: 10px;
         padding-top: 64px;
     }
     &__box {
         padding-left: 40px;
         padding-bottom: 48px;
+    }
+
+    &__social-border {
+        display: inline-flex;
+        border-right: 1px solid $light-gray;
+        padding-right: 10px;
+    }
+    &__social-border:last-child {
+        border: none;
     }
 }

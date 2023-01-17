@@ -41,6 +41,13 @@
             justify-content: start;
         }
     }
+    &__logo {
+        @include desktop {
+            display: flex;
+            justify-content: flex-start;
+            margin-left: 0;
+        }
+    }
     &__location {
         font-size: 14px;
         line-height: 1.7;
@@ -75,6 +82,10 @@
         fill: currentColor;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        @include desktop {
+            display: flex;
+            justify-content: flex-start;
+        }
     }
     &__contacts-link:hover,
     &__contacts-link:focus,
