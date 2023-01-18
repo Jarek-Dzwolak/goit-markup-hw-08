@@ -3,7 +3,7 @@
 
     @include desktop {
         display: flex;
-      
+        padding-top: 0;
     }
     &__pictures-list {
         display: flex;
